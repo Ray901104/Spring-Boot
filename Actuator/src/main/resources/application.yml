@@ -6,6 +6,9 @@ management:
       enabled: true
     env:
       enabled: true
+  server:
+    #port: 9292 <- 이런식으로 내부망에서만 사용하는 포트로 변경해서 설정하면 보안을 유지할 수 있다.
+    port: 8080
   endpoint:
     shutdown:
       enabled: true
